@@ -6,7 +6,7 @@ Instructions for completing the workshop can be found at https://www.rosaworksho
 ## Deploy me
 Set an environment variable with your name. This is how you will appear on the workshop scoreboard:
 ```bash
-MY_NAME="Andy Krohg"
+MY_NAME="Allen Fouladi"
 ```
 
 ### Prepare AWS Credentials
