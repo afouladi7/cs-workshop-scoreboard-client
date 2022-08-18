@@ -16,4 +16,6 @@ USER default
 
 COPY ansible/* .
 
+RUN chmod 600 ansible/deploy_app.yml ansible/deploy_cluster.yml 
+
 ENTRYPOINT ./loop.sh
