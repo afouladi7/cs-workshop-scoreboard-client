@@ -33,7 +33,7 @@ SCOREBOARD_SERVER=<server_url>
 ```bash
 oc new-project cs-workshop-scoreboard-client
 
-oc process -f https://raw.githubusercontent.com/andykrohg/cs-workshop-scoreboard-client/main/template.yml \
+oc process -f https://raw.githubusercontent.com/afouladi7/cs-workshop-scoreboard-client/main/template.yml \
     -p "MY_NAME=$MY_NAME" \
     -p AWS_ACCESS_KEY_ID=$ROSA_AWS_ACCESS_KEY_ID \
     -p AWS_SECRET_ACCESS_KEY=$ROSA_AWS_SECRET_ACCESS_KEY \
